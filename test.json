@@ -1,0 +1,14 @@
+{
+    "name": "GITHUB",
+    "summary": "Provided links and based on github.com",
+    "list": [
+        {
+            "name":"乐文小说",
+            "url":"https://www.lewen.la",
+            "category":1,
+            "auth":true,
+            "rank":4,
+            "version":100
+         }
+             ]
+}
