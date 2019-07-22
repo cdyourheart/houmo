@@ -3,11 +3,11 @@
     "summary": "Provided links and based on github.com",
     "list": [
         {
-            "name":"乐文小说",
-            "url":"https://www.lewen.la",
+            "name":"天翼文学",
+            "url":"https://www.tianyibook.la",
             "category":1,
             "auth":true,
-            "rank":4,
+            "rank":0,
             "version":100
          }
              ]
