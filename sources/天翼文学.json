@@ -29,6 +29,6 @@
     },
     "search": {
       "link": "https://www.tianyibook.la/modules/article/search.php?searchkey=${key}",
-      "list": "div.panel-body > div > div"
+      "list": "div.row>div.book-coverlist"
     }
   }
