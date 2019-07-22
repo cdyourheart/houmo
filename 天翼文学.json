@@ -1,0 +1,33 @@
+{
+    "name": "天翼文学",
+    "version": 100,
+    "category": 1,
+    "url": "https://www.tianyibook.la",
+    "charset": "gbk",
+    "metadata": {
+      "name": ["div.panel-body > div > div:nth-child(1) > div > div.col-md-7.pl0.mb10 > div > h4 > a", "div.col-md-10 > h1"],
+      "author": ["div.panel-body > div > div:nth-child(1) > div > div.col-md-7.pl0.mb10 > div > small", "h1 > small > a"],
+      "cover": ["div.panel-body > div > div:nth-child(1) > div > div.col-md-5 > a > img", "div > div.col-md-2.col-xs-4.hidden-xs > img"],
+      "summary": ["div.panel-body > div > div:nth-child(1) > div > div.col-md-7.pl0.mb10 > div > p", "#bookIntro"],
+      "category": ["ol > li:nth-child(2) > a"],
+      "status": ["p.booktag > span:nth-child(2)"],
+      "update": ["div.col-md-10 > p:nth-child(3) > span"],
+      "lastChapter": ["div.col-md-10 > p:nth-child(3) > a"],
+      "link": ["div.panel-body > div > div:nth-child(1) > div > div.col-md-7.pl0.mb10 > div > h4 > a@attr->href"]
+    },
+    "catalog": {
+      "list": "#list-chapterAll > dl > dd",
+      "orderBy": 0,
+      "chapter": {
+        "name": "#list-chapterAll > dl > dd> a",
+        "link": "#list-chapterAll > dl > dd> a@attr->href"
+      }
+    },
+    "content": {
+      "text": "#htmlContent"
+    },
+    "search": {
+      "link": "https://www.tianyibook.la/modules/article/search.php?searchkey=${key}",
+      "list": "div.panel-body > div > div"
+    }
+  }
