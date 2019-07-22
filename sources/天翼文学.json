@@ -13,7 +13,8 @@
       "status": ["p.booktag > span:nth-child(2)"],
       "update": ["div.col-md-10 > p:nth-child(3) > span"],
       "lastChapter": ["div.col-md-10 > p:nth-child(3) > a"],
-      "link": ["div.panel-body > div > div:nth-child(1) > div > div.col-md-7.pl0.mb10 > div > h4 > a@attr->href"]
+      "link": ["div.panel-body > div > div:nth-child(1) > div > div.col-md-7.pl0.mb10 > div > h4 > a@attr->href"],
+      "catalog": []
     },
     "catalog": {
       "list": "#list-chapterAll > dl > dd",
